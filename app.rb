@@ -38,7 +38,7 @@ class App < Sinatra::Base
     elsif @operation == "add"
       "#{number1.to_i + number2.to_i}"
     elsif @operation == "subtract"
-      "#{number1.to_i - number2.to_i}"
+      "#{number2.to_i - number1.to_i}"
     else
       "404 operation not found"
     end
