@@ -31,6 +31,7 @@ class App < Sinatra::Base
     @number1 = params[:number1]
     @number2 = params[:number2]
     
-    case
+    case @operation
+      when @operation ==
 
 end
