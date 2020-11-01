@@ -36,5 +36,7 @@ class App < Sinatra::Base
         "#{@number1*number2}"
       else
         "404"
+    end
+  end
 
 end
