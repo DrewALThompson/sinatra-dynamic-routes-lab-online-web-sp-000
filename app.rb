@@ -11,12 +11,12 @@ class App < Sinatra::Base
     "#{@number.to_i**2}"
   end
   
-  get '/say/:word%31/:word%32/:word%33/:word%34/:word%35' do 
-    @word1 = params[:word%31]
-    @word2 = params[:word%32]
-    @word3 = params[:word%33]
-    @word4 = params[:word%34]
-    @word5 = params[:word%35]
+  get '/say/:word1/:word2/:word3/:word4/:word5' do 
+    @word1 = params[:word1]
+    @word2 = params[:word2]
+    @word3 = params[:word3]
+    @word4 = params[:word4]
+    @word5 = params[:word5]
     "#{@word1} #{@word2} #{@word3} #{@word4} #{@word5}"
   end
 
