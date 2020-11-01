@@ -33,7 +33,7 @@ class App < Sinatra::Base
     
     case @operation
       when "multiply"
-        "#{@number1*@number2}"
+        "#{@number1.to_i*@number2.to_i}"
       else
         "404"
     end
