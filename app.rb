@@ -17,7 +17,7 @@ class App < Sinatra::Base
     @word3 = params[:word%33]
     @word4 = params[:word%34]
     @word5 = params[:word%35]
-    "#{word1} #{word2} #{word3} #{word4} #{word5}"
+    "#{@word1} #{@word2} #{@word3} #{@word4} #{@word5}"
   end
 
 end
