@@ -42,5 +42,7 @@ class App < Sinatra::Base
     else
       "404 operation not found"
     end
+  end
+end
 
 end
