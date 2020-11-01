@@ -40,6 +40,7 @@ class App < Sinatra::Base
         "#{@number1.to_i+@number2.to_i}"
       when "subtract"
         "#{@number1.to_i-@number2.to_i}"
+      else
         "404"
     end
   end
