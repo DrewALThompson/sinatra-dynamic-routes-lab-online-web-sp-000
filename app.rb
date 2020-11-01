@@ -30,6 +30,7 @@ class App < Sinatra::Base
     @operation = params[:operation]
     @number1 = params[:number1]
     @number2 = params[:number2]
+    
     if @operation == "multiply"
       "#{number1.to_i * number2.to_i}"
     elsif @operation == "divide"
@@ -41,6 +42,5 @@ class App < Sinatra::Base
     else
       "404 operation not found"
     end
-  end
 
 end
