@@ -32,6 +32,9 @@ class App < Sinatra::Base
     @number2 = params[:number2]
     
     case @operation
-      when @operation ==
+      when "multiply"
+        "#{@number1*number2}"
+      else
+        "404"
 
 end
